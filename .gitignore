@@ -1,0 +1,11 @@
+node_modules/
+playwright-report/
+test-results/
+.test-timestamp
+.report-timestamp
+test-output.log
+checkout-success.png
+.env
+dist/
+build/
+*.log
