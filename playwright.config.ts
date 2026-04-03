@@ -8,6 +8,7 @@ export default defineConfig({
   workers: 1,
   reporter: [
     ['html', { outputFolder: 'playwright-report', embedAssets: true, open: 'never' }],
+    ['json', { outputFile: 'test-results.json' }],
     ['list'],
   ],
   use: {
